@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+html {
+    background-color: black;
+    font-family: 'Orbitron', sans-serif;
+}
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr 2fr;
+    grid-template-rows: 275px 400px 200px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}   
+h1 {
+    color:red;
+    grid-row:3/3;
+    grid-column: 3/3;
+    font-size: 19px;
+    justify-self: center;
+}
+nav {
+    font-size: 36px;
+    grid-row:1/3;
+    grid-column: 3/3; 
+    display: inline-block;
+    padding: 10px;
+    margin: 2px;
+    color: white;
+    text-decoration: none;
+    justify-self: center;
+}
+nav a:hover {
+    color: white;
+    background-color: grey;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+p { 
+  justify-self: left;
+  grid-row: 2/3;
+  grid-column: 1/2;
+  color: white;
+  font-size: 18px;
+  border: 1px solid white;
+}
+.pTwo {
+  grid-row: 2/3;
+  grid-column: 2/2;
+  color: white;
+  font-size: 18px;
+  border: 1px solid white;
+}
+.pThree {
+  grid-row: 2/3;
+  grid-column: 4/5;
+  color: white;
+  font-size: 18px;
+  border: 1px solid white;
+}
+.MTF {
+  grid-row: 2/2;
+  grid-column: 3/5;
+  height: 400px;
+  width: 815px;
+}
+.Logo {
+ grid-row: 3/3;
+ grid-column: 1/3;
+ height: 275px;
+ width: 275px;
+}
+.Logo2 {
+ grid-row: 3/3;
+ grid-column: 4/4;
+ height: 275px;
+ width: 275px;
+ justify-self: right;
+}
+.Logo3 {
+ grid-row: 1/1;
+ grid-column: 4/4;
+ height: 275px;
+ width: 275px;
+ justify-self: right;
+}
+.Logo4 {
+ grid-row: 1/1;
+ grid-column: 1/1;
+ height: 275px;
+ width: 275px;
+}

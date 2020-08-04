@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+html {
+    background-image: url('Images/PleaseWork.jpg');
+    background-size: 1920px 1080px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 2.5fr 3fr 2fr;
+    grid-template-rows: 200px 350px 300px;
+}
+
+nav {
+    font-size: 20px;
+    text-align: center;
+    grid-row:1/3;
+    grid-column: 2/3; 
+    display: inline-block;
+}
+
+nav a:hover {
+    color: white;
+    background-color: black;
+}
+nav a {
+/*    display: inline-block;*/
+    margin: 20px 10px;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+
+
+
+h1 {
+    color: orangered;
+    grid-row:1/1;
+    grid-column:1/1;
+    display: block;
+}
+
+h2 {
+    color: white;
+    grid-row:1/3;
+    grid-column:3/3; 
+    justify-self: bottom;
+}
+
+
+p {
+    grid-row: 3/3;
+    grid-column: 1/3;
+    color: white;
+    font-size: 12px;
+    justify-self: left;
+    justify-self: down;
+    border: 8px solid white;
+}
+p2 {
+    grid-row:3/5;
+    grid-column:3/3;
+    color: white;
+    justify-self: right;
+    font-size: 12px;
+    border: 8px solid white;
+}
+
+.shy {
+    grid-row: 2/3;
+    grid-column: 1/1;
+    height: 360px;
+    width: 640px;
+}
+
+.statue {
+    grid-row: 2/3;
+    grid-column: 3/3;
+    height: 360px;
+    width: 640px;
+}
+
+.Images {
+    width: 100%;
+}
+
+#text {
+    color: red;
+}
+
+#Face {
+    width: 100%;
+}

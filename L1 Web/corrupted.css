@@ -1,0 +1,62 @@
+html {
+    background-color: black;
+}
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 300px 200px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}   
+h1 {
+    color:white;
+    grid-column: 2/2;
+    grid-row: 3/3;
+}
+h2 {
+    color:white;
+    grid-column: 1/1;
+    grid-row: 3/3;
+    font-size: 30px;
+    text-align: center;
+}
+h3 {
+    color:white;
+    grid-column: 3/3;
+    grid-row: 3/3;
+    font-size: 30px;
+    text-align: center;
+}
+nav {
+    font-size: 36px;
+    text-align: center;
+    grid-row:1/1;
+    grid-column: 2/2; 
+    display: inline-block;
+}
+nav a:hover {
+    color: white;
+    background-color: grey;
+}
+.Images {
+    width: 100%;
+    grid-column: 2/2;
+    grid-row: 2/2
+}
+
+#text {
+    color: red;
+}
+
+#Face {
+    width: 100%;
+    grid-column: 2/2;
+    grid-row: 2/2;
+    height: 100%;    
+}
+#Lucky {
+    grid-column: 3/3;
+    grid-row: 2/2;
+}

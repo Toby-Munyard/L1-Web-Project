@@ -1,0 +1,51 @@
+<!doctype html>
+<head>
+    <title>c0rrupted</title>
+    <link rel= "stylesheet" href="corrupted.css">
+</head>
+<body>   
+<div class="main">
+
+<script>
+    var answers = ['Safe','Danger','Turn Around'];
+    
+function testing(){
+    var rand = Math.floor(Math.random()*answers.length);
+   
+    document.getElementById('text').innerHTML = answers[rand];
+}
+setInterval(imgChanger,2000);
+    alert('I own this place now')
+    
+    var imgs = ['Images/Computer.jpg','Images/Glitch.jpg','Images/Statue.jpg']
+    var i = 0;
+    function imgChanger(){
+        document.getElementById('Face').src = imgs[i];
+        i++;
+        if(i >= imgs.length){
+           i = 0;
+        }
+    }
+</script>
+
+     <div class="Lucky">
+    <button onclick= "testing()">096's Special Fun Time Button</button>  
+    <p id="text"></p>
+    </div>
+
+
+        <div class="Images">
+        <img id="Face" src= "Images/Computer.jpg">
+    </div>
+        
+
+<nav>
+            <a href="index.html">You</a>
+            <a href="MTF.html">Are</a>
+            <a href="Corrputed.html">Trapped</a> 
+        </nav>
+<h1>Since you are here in my world we shall play a game, there is a small white button in the top left corner of your screen. Press it and it will reveal your fate.</h1>
+<h2>Camera monitoring SCP-69 Corrupted</h2> 
+<h3>Camera monitoring SCP-81 Corrupted</h3>       
+    </div>
+         </body>
